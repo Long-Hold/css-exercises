@@ -29,7 +29,9 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* Add .small-para as a group */
+.child,
+.small-para {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
