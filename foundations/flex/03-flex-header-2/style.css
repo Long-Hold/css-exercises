@@ -2,6 +2,14 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background: #eee;
@@ -58,4 +66,11 @@ ul {
 .container-2 {
   display: flex;
   align-items: center;
+}
+
+/* Listed items need to be encased in their own container */
+.container-1 ul {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 10px;
 }
