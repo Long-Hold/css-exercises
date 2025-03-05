@@ -66,11 +66,16 @@ ul {
 .container-2 {
   display: flex;
   align-items: center;
+  padding: 12px 4px;
 }
 
 /* Listed items need to be encased in their own container */
 .container-1 ul {
   display: flex;
-  justify-content: space-evenly;
-  column-gap: 10px;
+  column-gap: 16px;
+  margin-left: 1rem;
+}
+
+.container-2 .notifications {
+  margin-right: 1rem;
 }
