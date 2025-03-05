@@ -3,6 +3,11 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+
+  /* I could center the div like this */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .box {
@@ -12,4 +17,7 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+
+  /* I can also use margin: auto; to center a flex-box item */
+  margin: auto;
 }
