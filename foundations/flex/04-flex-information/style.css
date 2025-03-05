@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -10,6 +18,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  /* Add space between title and items */
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -26,7 +37,19 @@ img {
 }
 
 .title-container,
+.single-container,
 .img-container {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+}
+
+.single-container {
+  width: 200px;
+  margin: 0 52px;
+  flex-flow: row wrap;
+}
+
+.single-container .text {
+  text-align: center;
 }
