@@ -47,6 +47,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin-right: 14px;
 }
 
 .close-button {
@@ -90,7 +92,6 @@ button.cancel {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-right: 16px;
 }
 
 .header-container,
@@ -107,4 +108,8 @@ button.cancel {
 .message-container .text{
   font-size: 15px;
   margin: 10px 0;
+}
+
+.button-container {
+  gap: 4px;
 }
