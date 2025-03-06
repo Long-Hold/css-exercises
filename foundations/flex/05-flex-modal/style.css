@@ -93,10 +93,18 @@ button.cancel {
   padding-right: 16px;
 }
 
-.header-container {
+.header-container,
+.message-container,
+.button-container {
   display: flex;
+  justify-content: flex-start;
 }
 
 .header {
   font-size: 20px;
+}
+
+.message-container .text{
+  font-size: 15px;
+  margin: 10px 0;
 }
