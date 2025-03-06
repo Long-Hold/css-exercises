@@ -44,3 +44,18 @@ a {
   text-decoration: none;
   color:rgb(125,128,131)
 }
+
+/* Create header flex containers, and sub flex-containers in header*/
+.header,
+.footer,
+.left-links,
+.right-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-links,
+.left-links {
+  margin: 12px 12px;
+}
