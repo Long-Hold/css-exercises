@@ -32,3 +32,15 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* My additions */
+
+li {
+  /* remove any dots or list decorations from li elements */
+  list-style: none; 
+}
+
+a {
+  text-decoration: none;
+  color:rgb(125,128,131)
+}
