@@ -70,14 +70,27 @@ a {
   gap: 10px;
 }
 
+/* Footer should always be at the bottom of screen */
 .footer {
   background-color: #eeeeee;
   margin-top: auto;
 }
 
+/* Center this flex container on the viewport */
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
+  /* put space between the flex items in the container */
+  row-gap: 16px;
 }
+
+.content img {
+  margin: 12px;
+}
+
+/* button stylization for search bar */
+/* .content .buttons {
+
+} */
