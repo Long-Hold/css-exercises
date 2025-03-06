@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: red solid 1px;
+  /* border: red solid 1px; */
 }
 
 body {
@@ -64,6 +64,11 @@ a {
   align-items: center;
 }
 
+.header,
+.footer {
+  padding: 12px;
+}
+
 .right-links,
 .left-links {
   margin: 12px 12px;
@@ -91,6 +96,6 @@ a {
 }
 
 /* button stylization for search bar */
-/* .content .buttons {
-
-} */
+.content button {
+  padding: 10px;
+}
