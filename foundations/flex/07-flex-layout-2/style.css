@@ -44,9 +44,23 @@ body {
 }
 
 /* My additions */
+.header,
+.sidebar,
+.card-container,
 .footer {
   display: flex;
+}
 
+/* header flex container CSS */
+.header {
+  align-items: center;
+  padding: 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+/* footer flex container CSS */
+.footer {
   /* keeps footer at bottom of screen */
   margin-top: auto;
 }
