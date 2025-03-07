@@ -45,10 +45,19 @@ body {
 
 /* My additions */
 .header,
+.sidebar-card-container,
 .sidebar,
 .card-container,
 .footer {
   display: flex;
+}
+
+/* sidebar-card master container CSS */
+.sidebar-card-container {
+  /* This container needs to take up the space
+  between the header and footer so the sub containers
+  can stretch and wrap as needed */
+  flex: auto;
 }
 
 /* header flex container CSS */
@@ -57,6 +66,25 @@ body {
   padding: 16px;
   font-size: 32px;
   font-weight: 900;
+}
+
+/* sidebar container CSS */
+.sidebar {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.sidebar li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
 }
 
 /* footer flex container CSS */
