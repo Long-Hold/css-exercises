@@ -6,7 +6,7 @@
   box-sizing: border-box;
 
   /* debugging usage */
-  border: red solid 1px;
+  /* border: red solid 1px; */
 }
 
 body {
@@ -105,4 +105,6 @@ body {
 .footer {
   /* keeps footer at bottom of screen */
   margin-top: auto;
+  align-items: center;
+  justify-content: center;
 }
