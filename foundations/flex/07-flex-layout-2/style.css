@@ -86,6 +86,21 @@ body {
   text-decoration: none;
 }
 
+/* card-container CSS */
+.card-container {
+  flex-flow: row wrap;
+  padding: 48px;
+  align-content: stretch;
+  flex: auto;
+  gap: 32px;
+}
+
+.card-container .card {
+  flex: 1 0 1;
+  width: 300px;
+  padding: 16px;
+}
+
 /* footer flex container CSS */
 .footer {
   /* keeps footer at bottom of screen */
